@@ -23,3 +23,5 @@ def logout_view(request):
 @login_required
 def home(request):
     return render(request,'home.html')
+def profile(request):
+    pass
